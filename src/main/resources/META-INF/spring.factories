@@ -1,0 +1,4 @@
+org.springframework.context.ApplicationListener=\
+com.sioo.aerospike.AerospikeHolderListener
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.sioo.aerospike.config.RedisClientConfig
