@@ -20,8 +20,5 @@
 #Bins       
 在一条记录里，数据被存储在一个或多个bins里，bins由名称和值组成。bins不需要指定数据类型，数据类型有bins中的值决定。动态的数据类型提供了很好的灵活性。AS中每条记录可以由完全不同的bins组成。记录无模式，你可以记录的任何生命周期增加或删除bins。       
 在一个库中bins的名称最多包含32k，这是由内部字符串优化所致。（相比于HBase支持几百万列还是有一定差距，如果想直接将HBase表迁移到AS可能需要重新设计存储结构）四、总结      本文介绍了一些AS的基本感念，希望大家对AS有一个基本的认识，AS目前在互联网广告领域已有广泛的应用，如果有需要k-v存储的场景可以进行尝试。
-
-代码如下： [超链接](https://github.com/moses-keqi/spring-boot-aerospike-redis) 基于lua已封装成spring-boot-start 用法与Redis接口一致！
-
 #代码包含集群
 代码如下： [超链接](https://github.com/moses-keqi/spring-boot-aerospike-redis) 基于lua已封装成spring-boot-start 用法与Redis接口一致！
